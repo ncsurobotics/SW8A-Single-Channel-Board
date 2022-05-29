@@ -131,58 +131,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QEIPAGSB
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Acoustics Single Channel\AcousticsSingleChannel.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Acoustics Single Channel\AcousticsSingleChannel.G1
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Acoustics Single Channel\AcousticsSingleChannel.G2
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for Acoustics Single Channel\AcousticsSingleChannel.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for Acoustics Single Channel\AcousticsSingleChannel.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for Acoustics Single Channel\AcousticsSingleChannel.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for Acoustics Single Channel\AcousticsSingleChannel.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for Acoustics Single Channel\AcousticsSingleChannel.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for Acoustics Single Channel\AcousticsSingleChannel.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for Acoustics Single Channel\AcousticsSingleChannel.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for Acoustics Single Channel\AcousticsSingleChannel.REP
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for Acoustics Single Channel\AcousticsSingleChannel.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for Acoustics Single Channel\Design Rule Check - AcousticsSingleChannel.html
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
