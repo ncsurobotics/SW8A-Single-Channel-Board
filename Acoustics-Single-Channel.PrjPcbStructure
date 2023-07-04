@@ -1,4 +1,0 @@
-Record=TopLevelDocument|FileName=Channel.SchDoc|SheetNumber=1
-Record=SheetSymbol|SourceDocument=Channel.SchDoc|Designator=U_Band Pass Filter|SchDesignator=U_Band Pass Filter|FileName=Band Pass Filter.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=Band Pass Filter.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Channel.SchDoc|Designator=U_BufferBiasAmp|SchDesignator=U_BufferBiasAmp|FileName=BufferBiasAmp.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=BufferBiasAmp.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Channel.SchDoc|Designator=U_OutputAmplifier|SchDesignator=U_OutputAmplifier|FileName=OutputAmplifier.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=OutputAmplifier.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
