@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "AcousticsSingleChannel-altium-import")(type "KiCad")(uri "${KIPRJMOD}/AcousticsSingleChannel-altium-import.kicad_sym")(options "")(descr ""))
+)
