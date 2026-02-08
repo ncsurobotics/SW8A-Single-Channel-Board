@@ -1,653 +1,1662 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid b01c5417-2f4e-4f99-ac7a-f9359a73f948)
-
-  (paper "A")
-
-  (lib_symbols
-    (symbol "AcousticsSingleChannel-altium-import:AGND" (power) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "AGND" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name 'AGND'" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "AGND_0_0"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -2.54)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -2.54)
-            (xy 2.54 -2.54)
-            (xy 0 -5.08)
-            (xy -2.54 -2.54)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (pin power_in line (at 0 0 0) (length 0) hide
-          (name "AGND" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "AcousticsSingleChannel-altium-import:GND" (power) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "GND" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name 'GND'" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_0"
-        (polyline
-          (pts
-            (xy -2.54 -2.54)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 -3.302)
-            (xy 1.778 -3.302)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 -4.064)
-            (xy 1.016 -4.064)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.254 -4.826)
-            (xy 0.254 -4.826)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -2.54)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (pin power_in line (at 0 0 0) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "AcousticsSingleChannel-altium-import:OutputAmplifier_0_GCM188R71C105KA64D" (in_bom yes) (on_board yes)
-      (property "Reference" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "CAP CER 1UF 16V X7R 0603" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SMD-0603C" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "OutputAmplifier_0_GCM188R71C105KA64D_1_0"
-        (polyline
-          (pts
-            (xy -1.27 -0.508)
-            (xy 1.27 -0.508)
-          )
-          (stroke (width 0.254) (type solid) (color 0 0 255 1))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 0.254)
-            (xy 1.27 0.254)
-          )
-          (stroke (width 0.254) (type solid) (color 0 0 255 1))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -2.54)
-            (xy 0 -0.508)
-          )
-          (stroke (width 0.254) (type solid) (color 0 0 255 1))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.254)
-            (xy 0 2.54)
-          )
-          (stroke (width 0.254) (type solid) (color 0 0 255 1))
-          (fill (type none))
-        )
-        (pin passive line (at 0 2.54 270) (length 0)
-          (name "1" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 0)
-          (name "2" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "AcousticsSingleChannel-altium-import:OutputAmplifier_0_LT-LTC6910-TS8-8" (in_bom yes) (on_board yes)
-      (property "Reference" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "LT-TS8-8-TSOT-23_V" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "OutputAmplifier_0_LT-LTC6910-TS8-8_1_0"
-        (rectangle (start 15.24 0) (end 0 -20.32)
-          (stroke (width 0) (type solid))
-          (fill (type background))
-        )
-        (pin output line (at 20.32 -2.54 180) (length 5.08)
-          (name "OUT" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 20.32 -17.78 180) (length 5.08)
-          (name "AGND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -2.54 0) (length 5.08)
-          (name "IN" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 20.32 -15.24 180) (length 5.08)
-          (name "V-" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -7.62 0) (length 5.08)
-          (name "G0" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 0) (length 5.08)
-          (name "G1" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -12.7 0) (length 5.08)
-          (name "G2" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -5.08 -17.78 0) (length 5.08)
-          (name "V+" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "AcousticsSingleChannel-altium-import:OutputAmplifier_2_GCJ188R71C104KA01D" (in_bom yes) (on_board yes)
-      (property "Reference" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "CAP CER 0.1UF 16V X7R 0603" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SMD-0603C" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "OutputAmplifier_2_GCJ188R71C104KA01D_1_0"
-        (polyline
-          (pts
-            (xy 0 -0.254)
-            (xy 0 -2.54)
-          )
-          (stroke (width 0.254) (type solid) (color 0 0 255 1))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0 0.508)
-          )
-          (stroke (width 0.254) (type solid) (color 0 0 255 1))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -0.254)
-            (xy -1.27 -0.254)
-          )
-          (stroke (width 0.254) (type solid) (color 0 0 255 1))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0.508)
-            (xy -1.27 0.508)
-          )
-          (stroke (width 0.254) (type solid) (color 0 0 255 1))
-          (fill (type none))
-        )
-        (pin passive line (at 0 -2.54 90) (length 0)
-          (name "1" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 0 2.54 270) (length 0)
-          (name "2" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "AcousticsSingleChannel-altium-import:VCC" (power) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "VCC" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name 'VCC'" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VCC_0_0"
-        (polyline
-          (pts
-            (xy -1.27 -2.54)
-            (xy 1.27 -2.54)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -2.54)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (pin power_in line (at 0 0 0) (length 0) hide
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 93.98 119.38) (diameter 0) (color 0 0 0 0)
-    (uuid c0c7b557-015c-4a23-86aa-21f78e4489be)
-  )
-
-  (wire (pts (xy 93.98 119.38) (xy 106.68 119.38))
-    (stroke (width 0.254) (type default))
-    (uuid 15453ec8-0433-4b87-a870-3f97f9361d8f)
-  )
-  (wire (pts (xy 100.33 114.3) (xy 106.68 114.3))
-    (stroke (width 0) (type default))
-    (uuid 222acce0-6c15-4987-a7ee-99e8c4965c7c)
-  )
-  (wire (pts (xy 90.17 119.38) (xy 93.98 119.38))
-    (stroke (width 0) (type default))
-    (uuid 2b39a409-3a1f-4e6b-b6d5-c42976becc1f)
-  )
-  (wire (pts (xy 106.68 104.14) (xy 93.98 104.14))
-    (stroke (width 0.254) (type default))
-    (uuid 42b71535-fc50-4c03-be1e-47ca279ca5ba)
-  )
-  (wire (pts (xy 152.4 109.22) (xy 152.4 111.76))
-    (stroke (width 0.254) (type default))
-    (uuid 48c15c1a-e6a2-4aa3-b792-919581bde115)
-  )
-  (wire (pts (xy 93.98 121.92) (xy 93.98 119.38))
-    (stroke (width 0.254) (type default))
-    (uuid 67b47488-4d2f-49c2-81aa-a30293ebb825)
-  )
-  (wire (pts (xy 139.7 116.84) (xy 132.08 116.84))
-    (stroke (width 0.254) (type default))
-    (uuid 83dd1b8d-7ab9-4bc5-9abc-cdab1e01fe22)
-  )
-  (wire (pts (xy 100.33 111.76) (xy 106.68 111.76))
-    (stroke (width 0.254) (type default))
-    (uuid a7a36bad-0e03-4f2e-9d37-2933ad15f59c)
-  )
-  (wire (pts (xy 106.68 109.22) (xy 100.33 109.22))
-    (stroke (width 0.254) (type default))
-    (uuid b8cf0c8e-1bfd-4bf2-83ec-85046a0b02f5)
-  )
-  (wire (pts (xy 144.78 109.22) (xy 152.4 109.22))
-    (stroke (width 0.254) (type default))
-    (uuid d4f0fc2c-e9b2-48f8-85bf-ab2086b57fda)
-  )
-  (wire (pts (xy 132.08 104.14) (xy 137.16 104.14))
-    (stroke (width 0.254) (type default))
-    (uuid e2c7bdb7-4974-445a-bb06-1d5842a1dd0c)
-  )
-
-  (hierarchical_label "G1_out" (shape output) (at 100.33 111.76 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 202c5fcc-bab7-4e44-b566-ddc755b56b3c)
-  )
-  (hierarchical_label "G0_out" (shape output) (at 100.33 109.22 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 5c249ebf-d47b-4e07-9d6e-826a844f0e5c)
-  )
-  (hierarchical_label "Amp_In" (shape input) (at 93.98 104.14 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 9cab8875-7946-46c8-80ed-bba2ad767446)
-  )
-  (hierarchical_label "G2_out" (shape output) (at 100.33 114.3 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ad66ce55-236a-4488-8909-72efad90ec78)
-  )
-  (hierarchical_label "Amp_Out" (shape output) (at 137.16 104.14 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ca1d3e30-4e95-428b-b550-3959ae7b85f4)
-  )
-
-  (symbol (lib_id "AcousticsSingleChannel-altium-import:OutputAmplifier_0_LT-LTC6910-TS8-8") (at 111.76 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 59494d8f-e9da-473e-9a17-058c61646128)
-    (property "Reference" "U3" (at 111.76 99.06 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "LTC6910-3CTS8#TRPBF" (at 106.68 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "AltiumImports:LT-TS8-8-TSOT-23_V" (at 111.76 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 111.76 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "LTC6910-3CTS8#TRMPBF" (at 111.76 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bc71e72c-21bc-4dc5-896a-a4ec59804165))
-    (pin "2" (uuid a0c4af3b-d43d-48e7-ba51-8118aa460ec8))
-    (pin "3" (uuid 88e8909d-28e3-4474-877f-43140ba84812))
-    (pin "4" (uuid c26ff93b-a013-43e2-a33a-cf9541d4652c))
-    (pin "5" (uuid a151bb68-e6b6-4fd0-b5f1-bbbce10074d4))
-    (pin "6" (uuid 5d817c4a-572b-4196-9c15-1aca0ff51b8a))
-    (pin "7" (uuid 54187496-dbd1-4857-ad9b-01dd319fa4b6))
-    (pin "8" (uuid 039e063e-f6b1-44dd-9625-88a6eb1c8c9d))
-    (instances
-      (project "AcousticsSingleChannel"
-        (path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
-          (reference "U3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "AcousticsSingleChannel-altium-import:GND") (at 139.7 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 65c853e2-78d0-46fc-8346-188d0dd73562)
-    (property "Reference" "#PWR0151" (at 139.7 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 139.7 123.19 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 139.7 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 139.7 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid a6505953-d2e0-40b4-8343-a41151f37a14))
-    (instances
-      (project "AcousticsSingleChannel"
-        (path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
-          (reference "#PWR0151") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "AcousticsSingleChannel-altium-import:OutputAmplifier_0_GCM188R71C105KA64D") (at 152.4 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7c0d316f-02d6-475b-a067-8672ef95d7ea)
-    (property "Reference" "C11" (at 153.924 114.046 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "1µF" (at 153.924 116.586 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "AltiumImports:SMD-0603C" (at 152.4 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 152.4 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "GCM188R71C105KA64D" (at 152.4 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5468b56f-516e-4a40-8489-c55721ad04ee))
-    (pin "2" (uuid 533d2a0c-e85a-48eb-bdf8-3b93914bbb7a))
-    (instances
-      (project "AcousticsSingleChannel"
-        (path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
-          (reference "C11") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "AcousticsSingleChannel-altium-import:GND") (at 93.98 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid afd6b061-6b3b-4a6b-be20-80a515780bb5)
-    (property "Reference" "#PWR0154" (at 93.98 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 93.98 133.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 93.98 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 93.98 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 37c1d6b2-17cd-4de3-baea-e3edfb1a8d27))
-    (instances
-      (project "AcousticsSingleChannel"
-        (path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
-          (reference "#PWR0154") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "AcousticsSingleChannel-altium-import:VCC") (at 90.17 119.38 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b4ae15b5-d68b-4173-b9cc-a8f5b0f5e2c4)
-    (property "Reference" "#PWR0153" (at 90.17 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 90.17 115.57 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 90.17 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 90.17 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 2157bced-d111-4bce-9a57-adf798491133))
-    (instances
-      (project "AcousticsSingleChannel"
-        (path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
-          (reference "#PWR0153") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "AcousticsSingleChannel-altium-import:AGND") (at 144.78 109.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b9b928dd-2a69-4303-85e9-0f40963de5c1)
-    (property "Reference" "#PWR0149" (at 144.78 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "AGND" (at 144.78 115.57 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 144.78 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 144.78 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 8ca12f0a-4673-49db-a684-197a44548772))
-    (instances
-      (project "AcousticsSingleChannel"
-        (path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
-          (reference "#PWR0149") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "AcousticsSingleChannel-altium-import:GND") (at 152.4 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ddcf14f6-d517-40be-88e5-d1250a6a5071)
-    (property "Reference" "#PWR0147" (at 152.4 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 152.4 123.19 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 152.4 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 152.4 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 8a32c175-b2d6-4080-bf02-4c486f7108db))
-    (instances
-      (project "AcousticsSingleChannel"
-        (path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
-          (reference "#PWR0147") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "AcousticsSingleChannel-altium-import:OutputAmplifier_2_GCJ188R71C104KA01D") (at 93.98 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e83dfe95-5806-4abf-a5b7-bce7bbd70301)
-    (property "Reference" "C12" (at 95.504 124.206 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "0.10µF" (at 95.504 126.746 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "AltiumImports:SMD-0603C" (at 93.98 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 93.98 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "GCJ188R71C104KA01D" (at 93.98 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 348fdadd-8d20-490c-b060-6dade29d277a))
-    (pin "2" (uuid b4a0530e-335a-4ff0-bbf6-b71e22346448))
-    (instances
-      (project "AcousticsSingleChannel"
-        (path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
-          (reference "C12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "AcousticsSingleChannel-altium-import:AGND") (at 132.08 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f872ef3c-98b3-4304-830d-b1bb9130e0eb)
-    (property "Reference" "#PWR0150" (at 132.08 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "AGND" (at 132.08 125.73 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 132.08 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 132.08 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid edeeec4c-7156-4087-8d2d-de2ccb184c40))
-    (instances
-      (project "AcousticsSingleChannel"
-        (path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
-          (reference "#PWR0150") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b01c5417-2f4e-4f99-ac7a-f9359a73f948")
+	(paper "A")
+	(lib_symbols
+		(symbol "AcousticsSingleChannel-altium-import:AGND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AGND"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'AGND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AGND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54) (xy 0 -5.08) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AcousticsSingleChannel-altium-import:OutputAmplifier_0_GCM188R71C105KA64D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 1UF 16V X7R 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SMD-0603C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OutputAmplifier_0_GCM188R71C105KA64D_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0.254) (xy 1.27 0.254)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.508) (xy 1.27 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AcousticsSingleChannel-altium-import:OutputAmplifier_0_LT-LTC6910-TS8-8"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LT-TS8-8-TSOT-23_V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OutputAmplifier_0_LT-LTC6910-TS8-8_1_0"
+				(rectangle
+					(start 15.24 0)
+					(end 0 -20.32)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "G0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -12.7 0)
+					(length 5.08)
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -17.78 0)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -15.24 180)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -17.78 180)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AcousticsSingleChannel-altium-import:OutputAmplifier_2_GCJ188R71C104KA01D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0.1UF 16V X7R 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SMD-0603C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OutputAmplifier_2_GCJ188R71C104KA01D_1_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.508) (xy -1.27 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.254) (xy -1.27 -0.254)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 93.98 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0c7b557-015c-4a23-86aa-21f78e4489be")
+	)
+	(wire
+		(pts
+			(xy 93.98 119.38) (xy 106.68 119.38)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "15453ec8-0433-4b87-a870-3f97f9361d8f")
+	)
+	(wire
+		(pts
+			(xy 100.33 114.3) (xy 106.68 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "222acce0-6c15-4987-a7ee-99e8c4965c7c")
+	)
+	(wire
+		(pts
+			(xy 81.28 119.38) (xy 93.98 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b39a409-3a1f-4e6b-b6d5-c42976becc1f")
+	)
+	(wire
+		(pts
+			(xy 106.68 104.14) (xy 93.98 104.14)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "42b71535-fc50-4c03-be1e-47ca279ca5ba")
+	)
+	(wire
+		(pts
+			(xy 152.4 109.22) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "48c15c1a-e6a2-4aa3-b792-919581bde115")
+	)
+	(wire
+		(pts
+			(xy 93.98 121.92) (xy 93.98 119.38)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "67b47488-4d2f-49c2-81aa-a30293ebb825")
+	)
+	(wire
+		(pts
+			(xy 139.7 116.84) (xy 132.08 116.84)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "83dd1b8d-7ab9-4bc5-9abc-cdab1e01fe22")
+	)
+	(wire
+		(pts
+			(xy 100.33 111.76) (xy 106.68 111.76)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a7a36bad-0e03-4f2e-9d37-2933ad15f59c")
+	)
+	(wire
+		(pts
+			(xy 106.68 109.22) (xy 100.33 109.22)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b8cf0c8e-1bfd-4bf2-83ec-85046a0b02f5")
+	)
+	(wire
+		(pts
+			(xy 144.78 109.22) (xy 152.4 109.22)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d4f0fc2c-e9b2-48f8-85bf-ab2086b57fda")
+	)
+	(wire
+		(pts
+			(xy 132.08 104.14) (xy 137.16 104.14)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e2c7bdb7-4974-445a-bb06-1d5842a1dd0c")
+	)
+	(hierarchical_label "G1_out"
+		(shape output)
+		(at 100.33 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "202c5fcc-bab7-4e44-b566-ddc755b56b3c")
+	)
+	(hierarchical_label "G0_out"
+		(shape output)
+		(at 100.33 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c249ebf-d47b-4e07-9d6e-826a844f0e5c")
+	)
+	(hierarchical_label "Amp_In"
+		(shape input)
+		(at 93.98 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9cab8875-7946-46c8-80ed-bba2ad767446")
+	)
+	(hierarchical_label "G2_out"
+		(shape output)
+		(at 100.33 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad66ce55-236a-4488-8909-72efad90ec78")
+	)
+	(hierarchical_label "Amp_Out"
+		(shape output)
+		(at 137.16 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca1d3e30-4e95-428b-b550-3959ae7b85f4")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25c1aabc-62a0-4296-abe2-a8dd95f49217")
+		(property "Reference" "#PWR013"
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0826f660-9bbe-4339-8cdc-549ae8edd4d0")
+		)
+		(instances
+			(project "AcousticsSingleChannel"
+				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 81.28 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "520d4c1b-608e-47ed-8dc9-4839581c7c32")
+		(property "Reference" "#PWR040"
+			(at 81.28 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 81.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 81.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1160189e-66d8-4182-8a9d-e725114bd263")
+		)
+		(instances
+			(project "AcousticsSingleChannel"
+				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AcousticsSingleChannel-altium-import:OutputAmplifier_0_LT-LTC6910-TS8-8")
+		(at 111.76 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59494d8f-e9da-473e-9a17-058c61646128")
+		(property "Reference" "U3"
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LTC6910-3CTS8#TRPBF"
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "AltiumImports:LT-TS8-8-TSOT-23_V"
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "LTC6910-3CTS8#TRMPBF"
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc71e72c-21bc-4dc5-896a-a4ec59804165")
+		)
+		(pin "2"
+			(uuid "a0c4af3b-d43d-48e7-ba51-8118aa460ec8")
+		)
+		(pin "3"
+			(uuid "88e8909d-28e3-4474-877f-43140ba84812")
+		)
+		(pin "4"
+			(uuid "c26ff93b-a013-43e2-a33a-cf9541d4652c")
+		)
+		(pin "5"
+			(uuid "a151bb68-e6b6-4fd0-b5f1-bbbce10074d4")
+		)
+		(pin "6"
+			(uuid "5d817c4a-572b-4196-9c15-1aca0ff51b8a")
+		)
+		(pin "7"
+			(uuid "54187496-dbd1-4857-ad9b-01dd319fa4b6")
+		)
+		(pin "8"
+			(uuid "039e063e-f6b1-44dd-9625-88a6eb1c8c9d")
+		)
+		(instances
+			(project "AcousticsSingleChannel"
+				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59aa1b22-5377-4652-a6e5-d306fd398c7f")
+		(property "Reference" "#PWR014"
+			(at 152.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d811813-5583-42a8-81bf-41ab1e6678e4")
+		)
+		(instances
+			(project "AcousticsSingleChannel"
+				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AcousticsSingleChannel-altium-import:OutputAmplifier_0_GCM188R71C105KA64D")
+		(at 152.4 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c0d316f-02d6-475b-a067-8672ef95d7ea")
+		(property "Reference" "C11"
+			(at 153.924 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1µF"
+			(at 153.924 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "AltiumImports:SMD-0603C"
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "GCM188R71C105KA64D"
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5468b56f-516e-4a40-8489-c55721ad04ee")
+		)
+		(pin "2"
+			(uuid "533d2a0c-e85a-48eb-bdf8-3b93914bbb7a")
+		)
+		(instances
+			(project "AcousticsSingleChannel"
+				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90a5d867-88ea-4b02-ad14-a7869b2e4699")
+		(property "Reference" "#PWR041"
+			(at 93.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "068fc243-33d6-4367-b17b-5515ab9b05a1")
+		)
+		(instances
+			(project "AcousticsSingleChannel"
+				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AcousticsSingleChannel-altium-import:AGND")
+		(at 144.78 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9b928dd-2a69-4303-85e9-0f40963de5c1")
+		(property "Reference" "#PWR0149"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 144.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "8ca12f0a-4673-49db-a684-197a44548772")
+		)
+		(instances
+			(project "AcousticsSingleChannel"
+				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AcousticsSingleChannel-altium-import:OutputAmplifier_2_GCJ188R71C104KA01D")
+		(at 93.98 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e83dfe95-5806-4abf-a5b7-bce7bbd70301")
+		(property "Reference" "C12"
+			(at 95.504 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.10µF"
+			(at 95.504 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "AltiumImports:SMD-0603C"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "GCJ188R71C104KA01D"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "348fdadd-8d20-490c-b060-6dade29d277a")
+		)
+		(pin "2"
+			(uuid "b4a0530e-335a-4ff0-bbf6-b71e22346448")
+		)
+		(instances
+			(project "AcousticsSingleChannel"
+				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AcousticsSingleChannel-altium-import:AGND")
+		(at 132.08 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f872ef3c-98b3-4304-830d-b1bb9130e0eb")
+		(property "Reference" "#PWR0150"
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 132.08 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "edeeec4c-7156-4087-8d2d-de2ccb184c40")
+		)
+		(instances
+			(project "AcousticsSingleChannel"
+				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4/3e62cd89-d47d-4712-b27b-57e94837f59d"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

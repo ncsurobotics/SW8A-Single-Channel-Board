@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "AltiumImports")(type "KiCad")(uri "${KIPRJMOD}/AltiumImports.pretty")(options "")(descr ""))
+  (lib (name "Accoustics")(type "KiCad")(uri "${KIPRJMOD}/Accoustics.pretty")(options "")(descr ""))
 )
