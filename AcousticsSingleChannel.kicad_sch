@@ -3264,6 +3264,12 @@
 		(uuid "24b0336f-2cbc-43d7-b40b-c04f7b2c8b4e")
 	)
 	(junction
+		(at 115.57 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2eace692-9f0b-47a5-8e1d-9c746231ff35")
+	)
+	(junction
 		(at 187.96 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3274,12 +3280,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96fbda10-3295-4545-b75b-d8fea2507f7b")
-	)
-	(junction
-		(at 182.88 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca62d81d-d826-46ff-b8da-82c304b25b14")
 	)
 	(junction
 		(at 243.84 101.6)
@@ -3300,8 +3300,12 @@
 		(uuid "d53caf79-f4d9-485c-adbb-938603c8c14d")
 	)
 	(no_connect
-		(at 146.05 149.86)
-		(uuid "56613c9c-637d-4d1b-8654-5aa2cc34ed7f")
+		(at 171.45 147.32)
+		(uuid "0127e880-bde9-4d25-af97-571875f545db")
+	)
+	(no_connect
+		(at 171.45 149.86)
+		(uuid "2f14a089-b8f2-479d-bb67-4a487eccbdf3")
 	)
 	(no_connect
 		(at 146.05 152.4)
@@ -3311,9 +3315,25 @@
 		(at 146.05 154.94)
 		(uuid "7e57ed41-c8d4-4f1f-a101-67dc85a60c59")
 	)
-	(no_connect
-		(at 171.45 154.94)
-		(uuid "c7424679-e27d-4df4-81f0-06f98042ca9e")
+	(wire
+		(pts
+			(xy 220.98 152.4) (xy 171.45 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f80f5b-32c5-4099-ac92-a6058e1c438a")
+	)
+	(wire
+		(pts
+			(xy 232.41 149.86) (xy 241.3 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024d8afb-965c-4df2-ba84-3be935d75a98")
 	)
 	(wire
 		(pts
@@ -3344,16 +3364,6 @@
 			(type default)
 		)
 		(uuid "0525a9e8-2571-4b25-bb24-be9a8339650b")
-	)
-	(wire
-		(pts
-			(xy 182.88 149.86) (xy 182.88 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09162de3-ab28-4fc4-b113-baeefb2e2375")
 	)
 	(wire
 		(pts
@@ -3404,16 +3414,6 @@
 			(type default)
 		)
 		(uuid "128d8f44-757e-4e7c-bd07-9faa163dccae")
-	)
-	(wire
-		(pts
-			(xy 176.53 143.51) (xy 238.76 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18808545-daae-4a9b-a4ac-fd87368925ca")
 	)
 	(wire
 		(pts
@@ -3487,16 +3487,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 147.32) (xy 171.45 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd30cb2-729f-4c09-afac-56f10d65faf8")
-	)
-	(wire
-		(pts
 			(xy 68.58 111.76) (xy 72.39 111.76)
 		)
 		(stroke
@@ -3544,16 +3534,6 @@
 			(type default)
 		)
 		(uuid "38291c75-3d9d-49a7-bec5-13afd9e9db86")
-	)
-	(wire
-		(pts
-			(xy 172.72 166.37) (xy 243.84 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4104a602-a36d-47cd-bee3-37261f012326")
 	)
 	(wire
 		(pts
@@ -3607,13 +3587,23 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 149.86) (xy 195.58 149.86)
+			(xy 102.87 149.86) (xy 93.98 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51c4134f-3951-4f9b-b481-85e943fbcd9b")
+		(uuid "54ca76da-b57a-41d0-9cba-c0fa3b2461a8")
+	)
+	(wire
+		(pts
+			(xy 220.98 143.51) (xy 220.98 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5686e307-a6c7-4c86-ad1c-f8c0407b8e5d")
 	)
 	(wire
 		(pts
@@ -3624,6 +3614,16 @@
 			(type default)
 		)
 		(uuid "577893d5-7d7c-4c5f-881d-76006437f165")
+	)
+	(wire
+		(pts
+			(xy 113.03 149.86) (xy 115.57 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d99c3e-8fb3-4013-9d22-09f47423ca61")
 	)
 	(wire
 		(pts
@@ -3644,16 +3644,6 @@
 			(type default)
 		)
 		(uuid "60fe4701-b7f7-4327-96c6-b01d9ff90e6f")
-	)
-	(wire
-		(pts
-			(xy 171.45 149.86) (xy 182.88 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "678638cb-890b-41a6-9363-6f86f69852dd")
 	)
 	(wire
 		(pts
@@ -3687,33 +3677,13 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 166.37) (xy 243.84 137.16)
+			(xy 243.84 154.94) (xy 243.84 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7939cc9e-2d6a-46bc-9d8a-49ef21dbd341")
-	)
-	(wire
-		(pts
-			(xy 176.53 143.51) (xy 176.53 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7edbd20c-b70d-4277-9402-00fe7a1b80ad")
-	)
-	(wire
-		(pts
-			(xy 185.42 149.86) (xy 182.88 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80b0e10f-ead2-447c-9263-6469f073a2c0")
 	)
 	(wire
 		(pts
@@ -3797,16 +3767,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 152.4) (xy 172.72 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2148dc2-3764-4293-a603-cd6453f59a90")
-	)
-	(wire
-		(pts
 			(xy 52.07 46.99) (xy 54.61 46.99)
 		)
 		(stroke
@@ -3844,6 +3804,16 @@
 			(type default)
 		)
 		(uuid "b636ebfb-6d26-4608-892a-f19d42330841")
+	)
+	(wire
+		(pts
+			(xy 238.76 143.51) (xy 220.98 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f4fca6-1512-48d5-9fa4-628b6e352875")
 	)
 	(wire
 		(pts
@@ -3917,16 +3887,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 152.4) (xy 172.72 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d779cdf9-af9b-4651-9491-5e5326cf0633")
-	)
-	(wire
-		(pts
 			(xy 196.85 121.92) (xy 196.85 119.38)
 		)
 		(stroke
@@ -3967,6 +3927,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 154.94) (xy 243.84 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3e4285-af4d-43ec-ac62-191b1bd89118")
+	)
+	(wire
+		(pts
 			(xy 49.53 45.72) (xy 52.07 45.72)
 		)
 		(stroke
@@ -3974,6 +3944,16 @@
 			(type default)
 		)
 		(uuid "e0345265-bb9d-4133-acaa-b4f7858951e7")
+	)
+	(wire
+		(pts
+			(xy 115.57 149.86) (xy 146.05 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee59b8f2-c4b4-40f9-9832-2dae8fbb9045")
 	)
 	(wire
 		(pts
@@ -4065,6 +4045,16 @@
 		)
 		(uuid "717539f9-9c01-45d4-9a50-02c6419b92bf")
 	)
+	(label "DOUT"
+		(at 232.41 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b56fb9c-309a-4ca6-9234-78bab59ce6f9")
+	)
 	(label "G1_out"
 		(at 20.32 43.18 180)
 		(effects
@@ -4114,6 +4104,16 @@
 			(justify left bottom)
 		)
 		(uuid "f36bcb0f-749d-4a75-b9b6-0e552214ba47")
+	)
+	(label "DOUT"
+		(at 93.98 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4f79ee6-fdc9-46e2-a3a8-44b3cd1eb37d")
 	)
 	(symbol
 		(lib_id "AcousticsSingleChannel-altium-import:root_0_TI-OPA16X4_4XXX-14")
@@ -4624,7 +4624,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 161.29 0)
+		(at 115.57 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4632,7 +4632,7 @@
 		(dnp no)
 		(uuid "218e5bf2-4aa3-4b6d-9656-b3da1a726d4f")
 		(property "Reference" "#PWR017"
-			(at 182.88 167.64 0)
+			(at 115.57 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4641,7 +4641,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.436 164.592 0)
+			(at 119.126 163.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +4649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 161.29 0)
+			(at 115.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,7 +4658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 161.29 0)
+			(at 115.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,7 +4667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 161.29 0)
+			(at 115.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,7 +4938,7 @@
 	)
 	(symbol
 		(lib_id "AcousticsSingleChannel-altium-import:root_0_ERJ-3EKF7500V")
-		(at 190.5 149.86 0)
+		(at 107.95 149.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4946,7 +4946,7 @@
 		(dnp no)
 		(uuid "4dabf59b-2125-4518-83c0-f9305454a8de")
 		(property "Reference" "R26"
-			(at 187.706 148.844 0)
+			(at 110.744 150.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,16 +4955,16 @@
 			)
 		)
 		(property "Value" "0"
-			(at 187.706 153.162 0)
+			(at 107.442 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "AltiumImports:SMD-0603-RES"
-			(at 190.5 149.86 0)
+			(at 107.95 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,7 +4973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 149.86 0)
+			(at 107.95 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +4982,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 149.86 0)
+			(at 107.95 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,7 +4990,7 @@
 			)
 		)
 		(property "Part Number" "ERJ-3EKF7500V"
-			(at 190.5 149.86 0)
+			(at 107.95 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,7 +6150,7 @@
 	)
 	(symbol
 		(lib_id "AcousticsSingleChannel-altium-import:root_1_ERJ-3EKF1001V")
-		(at 182.88 156.21 0)
+		(at 115.57 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6158,7 +6158,7 @@
 		(dnp yes)
 		(uuid "b4c1db82-6884-4592-bcb7-60806896b562")
 		(property "Reference" "R27"
-			(at 183.642 155.956 0)
+			(at 116.332 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6167,7 +6167,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 183.642 158.496 0)
+			(at 116.332 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6176,7 +6176,7 @@
 			)
 		)
 		(property "Footprint" "AltiumImports:SMD-0603-RES"
-			(at 182.88 156.21 0)
+			(at 115.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,7 +6185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 156.21 0)
+			(at 115.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,7 +6194,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 156.21 0)
+			(at 115.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,7 +6202,7 @@
 			)
 		)
 		(property "Part Number" "ERJ-3EKF1001V"
-			(at 182.88 156.21 0)
+			(at 115.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
