@@ -37,9 +37,9 @@
         "other_text_thickness": 0.254,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.4,
+          "width": 0.45
         },
         "silk_line_width": 0.254,
         "silk_text_italic": false,
@@ -620,10 +620,6 @@
     [
       "8b2368f6-513e-479c-aa25-8a2dd439cbb4",
       "Root"
-    ],
-    [
-      "606915d9-2e9f-4ecb-b8c4-c99ab62be0e4",
-      "Band Pass Filter"
     ],
     [
       "81960857-4994-4d17-b2b7-49897dec4f14",
