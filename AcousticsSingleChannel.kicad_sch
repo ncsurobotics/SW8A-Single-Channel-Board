@@ -1292,6 +1292,226 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Accoustics:mcp1416t-e_ot"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 27.94 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "mcp1416t-e/ot"
+				(at 27.94 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SOT-23-5_MC_MCH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "mcp1416t-e/ot"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mcp1416t-e/ot"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT-23-5_MC_MCH SOT-23-5_MC_MCH-M SOT-23-5_MC_MCH-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "mcp1416t-e_ot_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 48.26 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 -10.16) (xy 48.26 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin no_connect line
+					(at 0 0 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 55.88 0 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 55.88 -2.54 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 55.88 -5.08 180)
+					(length 7.62)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "AcousticsSingleChannel-altium-import:AGND"
 			(power)
 			(exclude_from_sim no)
@@ -3551,6 +3771,12 @@
 		(uuid "cf9c7a63-af84-4635-936b-7cc9e6c2a73c")
 	)
 	(junction
+		(at 22.86 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e85ef4ad-194d-4545-9c34-596871158294")
+	)
+	(junction
 		(at 264.16 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3610,6 +3836,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 167.64) (xy 87.63 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a74cce4-8718-4277-ae5d-3b89ad3b5e60")
+	)
+	(wire
+		(pts
 			(xy 34.29 96.52) (xy 55.88 96.52)
 		)
 		(stroke
@@ -3647,6 +3883,16 @@
 			(type default)
 		)
 		(uuid "14f033f1-df48-4c47-8ee9-876a74732bfc")
+	)
+	(wire
+		(pts
+			(xy 22.86 160.02) (xy 29.21 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186249cc-5bba-4f6b-91dc-edf05b3b1c1f")
 	)
 	(wire
 		(pts
@@ -3760,6 +4006,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 160.02) (xy 22.86 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3b2cf4-4f1a-4454-a94e-ae416c4fa185")
+	)
+	(wire
+		(pts
 			(xy 172.72 147.32) (xy 171.45 147.32)
 		)
 		(stroke
@@ -3817,6 +4073,16 @@
 			(type default)
 		)
 		(uuid "40fda9af-126c-4811-b51d-7e164737e4a0")
+	)
+	(wire
+		(pts
+			(xy 105.41 165.1) (xy 105.41 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438a49f8-a1ce-48dc-a9c1-7e8a1cea45ef")
 	)
 	(wire
 		(pts
@@ -3930,6 +4196,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 158.75) (xy 17.78 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "657daa4e-72d2-4913-ae83-99beb9cbb3ba")
+	)
+	(wire
+		(pts
 			(xy 187.96 96.52) (xy 190.5 96.52)
 		)
 		(stroke
@@ -3947,6 +4223,16 @@
 			(type default)
 		)
 		(uuid "685179fc-b59e-4a09-9732-4bdb7f86be21")
+	)
+	(wire
+		(pts
+			(xy 85.09 165.1) (xy 105.41 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a77bc7e-731b-412f-bea8-95e93d321fd8")
 	)
 	(wire
 		(pts
@@ -3977,6 +4263,16 @@
 			(type default)
 		)
 		(uuid "700f7807-9d64-4cda-be9d-206d67d7011b")
+	)
+	(wire
+		(pts
+			(xy 85.09 162.56) (xy 88.9 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7829cbed-cf52-4705-bbcc-2c64a75d5652")
 	)
 	(wire
 		(pts
@@ -4180,6 +4476,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 158.75) (xy 29.21 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aadb3e9f-af5c-48f2-b2b3-e178f552a9a5")
+	)
+	(wire
+		(pts
 			(xy 162.56 91.44) (xy 165.1 91.44)
 		)
 		(stroke
@@ -4310,6 +4616,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 160.02) (xy 22.86 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc5afab1-35eb-49fe-963c-52b0cef1092a")
+	)
+	(wire
+		(pts
 			(xy 232.41 135.89) (xy 232.41 133.35)
 		)
 		(stroke
@@ -4377,6 +4693,16 @@
 			(type default)
 		)
 		(uuid "e0345265-bb9d-4133-acaa-b4f7858951e7")
+	)
+	(wire
+		(pts
+			(xy 29.21 165.1) (xy 22.86 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1cc7894-155e-4613-a956-f1502684540f")
 	)
 	(wire
 		(pts
@@ -4528,6 +4854,16 @@
 		)
 		(uuid "396c62cf-2726-4cf4-9dad-95abb9eb7e33")
 	)
+	(label "Mode_Sel_Out"
+		(at 34.29 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59e45f1d-6e5d-4bda-8baa-6783861d46f0")
+	)
 	(label "Mode_Sel"
 		(at 144.78 147.32 180)
 		(effects
@@ -4537,16 +4873,6 @@
 			(justify right bottom)
 		)
 		(uuid "5c74a11d-b2f1-4cfc-bf50-402fe5b1677d")
-	)
-	(label "Mode_Sel"
-		(at 34.29 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "717539f9-9c01-45d4-9a50-02c6419b92bf")
 	)
 	(label "RESET"
 		(at 190.5 106.68 180)
@@ -4678,6 +5004,16 @@
 		)
 		(uuid "eb01608a-9c40-4cdd-9bdb-c1012e5326f3")
 	)
+	(label "Mode_Sel"
+		(at 87.63 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eea129cd-5568-43ac-8e19-aa38fc8c8d07")
+	)
 	(label "CS"
 		(at 172.72 154.94 0)
 		(effects
@@ -4707,6 +5043,16 @@
 			(justify left bottom)
 		)
 		(uuid "fa85c9a8-ac7e-44e2-bc3f-8425da8307c3")
+	)
+	(label "Mode_Sel_Out"
+		(at 88.9 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "feabfd81-653d-4460-8e91-256bd0e887d2")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5156,6 +5502,71 @@
 			(project "AcousticsSingleChannel"
 				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "211695ba-a524-41c0-9f57-f639c52c79d0")
+		(property "Reference" "#PWR038"
+			(at 105.41 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 108.966 173.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72910a24-3ad0-45bb-b24c-703b76f564b8")
+		)
+		(instances
+			(project "AcousticsSingleChannel"
+				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6335,6 +6746,148 @@
 		)
 	)
 	(symbol
+		(lib_id "AcousticsSingleChannel-altium-import:root_0_ERJ-3EKF7500V")
+		(at 29.21 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73e0f811-2299-4dd4-9d92-84eb40869d44")
+		(property "Reference" "R8"
+			(at 30.226 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0"
+			(at 25.908 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "AltiumImports:SMD-0603-RES"
+			(at 29.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF7500V"
+			(at 29.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb601b5c-0b9e-4e5a-bc91-1facb16cc952")
+		)
+		(pin "2"
+			(uuid "8724792b-f1a3-4bd7-b430-a69a8819bfa6")
+		)
+		(instances
+			(project "AcousticsSingleChannel"
+				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 29.21 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7547f3aa-791c-427d-8f97-ed1b56211cc3")
+		(property "Reference" "#PWR040"
+			(at 29.21 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 28.956 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 29.21 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41365fe7-5a69-4f6b-9138-21e862ebfdbf")
+		)
+		(instances
+			(project "AcousticsSingleChannel"
+				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AcousticsSingleChannel-altium-import:root_0_GRM185C80J105KE26D")
 		(at 199.39 88.9 0)
 		(unit 1)
@@ -6892,6 +7445,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 17.78 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aae0038-b77c-4862-b666-71d37d46e125")
+		(property "Reference" "#PWR043"
+			(at 17.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 17.78 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 17.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a35ebc5-3e7d-45d9-b0d0-5e143586d46e")
+		)
+		(instances
+			(project "AcousticsSingleChannel"
+				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 72.39 34.29 0)
 		(unit 1)
@@ -6952,6 +7571,83 @@
 			(project "AcousticsSingleChannel"
 				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AcousticsSingleChannel-altium-import:root_0_ERJ-3EKF7500V")
+		(at 17.78 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "9bfcc449-f93b-4bd3-8d39-96b1254bf508")
+		(property "Reference" "R7"
+			(at 18.796 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0"
+			(at 14.478 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "AltiumImports:SMD-0603-RES"
+			(at 17.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF7500V"
+			(at 17.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "167afd3d-5a23-4d5d-9d18-dcb8dc0e2cea")
+		)
+		(pin "2"
+			(uuid "afd578a9-af2d-4f40-8eb2-48fa8e53c8c1")
+		)
+		(instances
+			(project "AcousticsSingleChannel"
+				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7938,6 +8634,85 @@
 			(project "AcousticsSingleChannel"
 				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Accoustics:mcp1416t-e_ot")
+		(at 29.21 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dba0e62f-048b-44c2-b6ba-8fa08e560c37")
+		(property "Reference" "U4"
+			(at 57.15 152.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "mcp1416t-e/ot"
+			(at 57.15 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Accoustics:SOT-23-5_MC_MCH-M"
+			(at 29.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "mcp1416t-e/ot"
+			(at 29.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "73da0ea9-0b3f-4eeb-b530-206301c5c8a2")
+		)
+		(pin "3"
+			(uuid "3fbd3e1c-b0af-4e5f-bfa6-68face868962")
+		)
+		(pin "5"
+			(uuid "bec495a5-1ad0-4d4b-a8d7-f8d5bc95d714")
+		)
+		(pin "2"
+			(uuid "6b4c1915-40e5-4d6e-8fd5-e7f4827ea25b")
+		)
+		(pin "1"
+			(uuid "0315d119-58b6-471b-b1e2-6c6cf2fc1740")
+		)
+		(instances
+			(project ""
+				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4"
+					(reference "U4")
 					(unit 1)
 				)
 			)
