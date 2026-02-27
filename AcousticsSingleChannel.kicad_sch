@@ -3444,6 +3444,12 @@
 		(uuid "24b0336f-2cbc-43d7-b40b-c04f7b2c8b4e")
 	)
 	(junction
+		(at 181.61 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ad7e13d-6354-41b6-ae50-a9fd66a87073")
+	)
+	(junction
 		(at 187.96 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3472,12 +3478,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d53caf79-f4d9-485c-adbb-938603c8c14d")
-	)
-	(junction
-		(at 128.27 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f05fa3f5-bb62-4a70-9391-f275c8355563")
 	)
 	(wire
 		(pts
@@ -3681,6 +3681,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 149.86) (xy 181.61 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37519891-08b2-4f55-8602-2c607d6dd630")
+	)
+	(wire
+		(pts
 			(xy 243.84 101.6) (xy 262.89 101.6)
 		)
 		(stroke
@@ -3688,6 +3698,16 @@
 			(type default)
 		)
 		(uuid "37bac6c8-a3b4-4764-999d-5cc134a5f9c5")
+	)
+	(wire
+		(pts
+			(xy 181.61 149.86) (xy 185.42 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7777d5-9029-49da-b210-e3468e68a407")
 	)
 	(wire
 		(pts
@@ -3708,6 +3728,16 @@
 			(type default)
 		)
 		(uuid "4696c75d-b029-4180-9537-5dd0a225e810")
+	)
+	(wire
+		(pts
+			(xy 181.61 161.29) (xy 181.61 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b90785-8dae-4e66-864b-28505182a416")
 	)
 	(wire
 		(pts
@@ -3741,7 +3771,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 152.4) (xy 106.68 152.4)
+			(xy 195.58 149.86) (xy 204.47 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3778,16 +3808,6 @@
 			(type default)
 		)
 		(uuid "577893d5-7d7c-4c5f-881d-76006437f165")
-	)
-	(wire
-		(pts
-			(xy 125.73 152.4) (xy 128.27 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58d99c3e-8fb3-4013-9d22-09f47423ca61")
 	)
 	(wire
 		(pts
@@ -3848,16 +3868,6 @@
 			(type default)
 		)
 		(uuid "700f7807-9d64-4cda-be9d-206d67d7011b")
-	)
-	(wire
-		(pts
-			(xy 128.27 152.4) (xy 146.05 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74b43ca1-a67f-4875-9a01-6eb436710524")
 	)
 	(wire
 		(pts
@@ -4119,16 +4129,6 @@
 		)
 		(uuid "0cabd26a-8a65-4a70-ad61-b8336538a0df")
 	)
-	(label "CS"
-		(at 171.45 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c71fe6c-687d-4d87-979b-f6fd713e8887")
-	)
 	(label "Hydro+"
 		(at 39.37 34.29 0)
 		(effects
@@ -4149,6 +4149,16 @@
 		)
 		(uuid "2d6f5069-fc35-4ab5-bba6-2a3178a140a2")
 	)
+	(label "RESET"
+		(at 146.05 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f46c597-77a8-4117-bcfe-f2b745d9c4c3")
+	)
 	(label "Sig_Out"
 		(at 191.77 93.98 0)
 		(effects
@@ -4160,16 +4170,16 @@
 		(uuid "349c4eee-3b9e-407f-a2e7-6574179b8d9d")
 	)
 	(label "START"
-		(at 171.45 147.32 0)
+		(at 171.45 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4dd5c369-939f-4212-b1a4-14bfa650599a")
+		(uuid "3f5e0d68-8c03-4bb0-84f1-333fac508b70")
 	)
-	(label "RESET"
+	(label "CS"
 		(at 146.05 149.86 180)
 		(effects
 			(font
@@ -4177,7 +4187,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "642c788f-1a8f-4ec0-948c-b74a3d1e9d11")
+		(uuid "5575e00e-7f0b-4fb7-9335-7e7917d7ee4c")
 	)
 	(label "G0_out"
 		(at 35.56 49.53 0)
@@ -4219,15 +4229,15 @@
 		)
 		(uuid "8a013c9c-1fa1-403f-9850-d2eb65c8326c")
 	)
-	(label "CLK"
-		(at 171.45 154.94 0)
+	(label "SCLK"
+		(at 171.45 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "96851390-05b6-4920-83df-1b1e6ec65688")
+		(uuid "9605b266-488d-4be7-85b5-0cbf7efa8feb")
 	)
 	(label "G1_out"
 		(at 35.56 52.07 0)
@@ -4248,6 +4258,16 @@
 			(justify left bottom)
 		)
 		(uuid "aaccf859-6ae4-4d50-957e-253e342a07a2")
+	)
+	(label "CLK"
+		(at 171.45 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf1f108e-00f2-4b62-9477-9f94bdc94adf")
 	)
 	(label "G1_out"
 		(at 34.29 82.55 0)
@@ -4289,16 +4309,6 @@
 		)
 		(uuid "d4abbab6-c949-4a3b-a0c7-0de8d2f5be5a")
 	)
-	(label "SCLK"
-		(at 171.45 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2b6c697-51eb-4b23-8437-39defb6ca43b")
-	)
 	(label "Hydro+"
 		(at 20.32 111.76 0)
 		(effects
@@ -4310,12 +4320,12 @@
 		(uuid "f36bcb0f-749d-4a75-b9b6-0e552214ba47")
 	)
 	(label "DOUT"
-		(at 106.68 152.4 180)
+		(at 204.47 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f4f79ee6-fdc9-46e2-a3a8-44b3cd1eb37d")
 	)
@@ -4838,7 +4848,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 162.56 0)
+		(at 181.61 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4846,7 +4856,7 @@
 		(dnp no)
 		(uuid "218e5bf2-4aa3-4b6d-9656-b3da1a726d4f")
 		(property "Reference" "#PWR017"
-			(at 128.27 168.91 0)
+			(at 181.61 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +4865,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 131.826 165.862 0)
+			(at 185.166 164.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4863,7 +4873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 162.56 0)
+			(at 181.61 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4872,7 +4882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 162.56 0)
+			(at 181.61 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4881,7 +4891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 162.56 0)
+			(at 181.61 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +5251,7 @@
 	)
 	(symbol
 		(lib_id "AcousticsSingleChannel-altium-import:root_0_ERJ-3EKF7500V")
-		(at 120.65 152.4 180)
+		(at 190.5 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5249,7 +5259,7 @@
 		(dnp no)
 		(uuid "4dabf59b-2125-4518-83c0-f9305454a8de")
 		(property "Reference" "R26"
-			(at 123.444 153.416 0)
+			(at 187.706 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,7 +5268,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 120.142 150.114 0)
+			(at 191.008 152.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5277,7 @@
 			)
 		)
 		(property "Footprint" "AltiumImports:SMD-0603-RES"
-			(at 120.65 152.4 0)
+			(at 190.5 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 152.4 0)
+			(at 190.5 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5285,7 +5295,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 152.4 0)
+			(at 190.5 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +5303,7 @@
 			)
 		)
 		(property "Part Number" "ERJ-3EKF7500V"
-			(at 120.65 152.4 0)
+			(at 190.5 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6485,7 +6495,7 @@
 	)
 	(symbol
 		(lib_id "AcousticsSingleChannel-altium-import:root_1_ERJ-3EKF1001V")
-		(at 128.27 157.48 0)
+		(at 181.61 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6493,7 +6503,7 @@
 		(dnp yes)
 		(uuid "b4c1db82-6884-4592-bcb7-60806896b562")
 		(property "Reference" "R27"
-			(at 129.032 157.226 0)
+			(at 182.372 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6512,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 129.032 159.766 0)
+			(at 182.372 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,7 +6521,7 @@
 			)
 		)
 		(property "Footprint" "AltiumImports:SMD-0603-RES"
-			(at 128.27 157.48 0)
+			(at 181.61 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,7 +6530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 157.48 0)
+			(at 181.61 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6529,7 +6539,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 157.48 0)
+			(at 181.61 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,7 +6547,7 @@
 			)
 		)
 		(property "Part Number" "ERJ-3EKF1001V"
-			(at 128.27 157.48 0)
+			(at 181.61 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
