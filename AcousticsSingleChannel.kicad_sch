@@ -3744,10 +3744,6 @@
 		(at 251.46 119.38)
 		(uuid "d3abee72-3545-46ba-a6cf-6e2907a8c161")
 	)
-	(no_connect
-		(at 251.46 93.98)
-		(uuid "f7d166d5-8821-456e-a814-b1c9a5f78fc2")
-	)
 	(wire
 		(pts
 			(xy 254 115.57) (xy 254 114.3)
@@ -4107,6 +4103,16 @@
 			(type default)
 		)
 		(uuid "685179fc-b59e-4a09-9732-4bdb7f86be21")
+	)
+	(wire
+		(pts
+			(xy 251.46 93.98) (xy 254 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5c1223-2348-4eeb-aa6a-af593229c6d3")
 	)
 	(wire
 		(pts
@@ -6092,6 +6098,73 @@
 			(project "AcousticsSingleChannel"
 				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b45da06-3b48-4143-a1cc-dce09ac5ead3")
+		(property "Reference" "#PWR038"
+			(at 260.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95bc0cca-4f15-4383-b5fb-45bb8a5702d3")
+		)
+		(instances
+			(project "AcousticsSingleChannel"
+				(path "/8b2368f6-513e-479c-aa25-8a2dd439cbb4"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
